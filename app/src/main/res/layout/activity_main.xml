@@ -1,0 +1,20 @@
+<!--显示在标题上的进度条-->
+<!--不需要使用ProgressBar组件，直接由Activity的方法启用-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+              android:background="#FFFFFF"
+    >
+<Button
+    android:id="@+id/bn1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="显示标题栏进度条"
+    />
+<Button
+    android:id="@+id/bn2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="隐藏标题栏进度条"
+    />
+</LinearLayout>
